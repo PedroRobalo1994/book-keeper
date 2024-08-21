@@ -88,7 +88,7 @@ a:active {
 
 /* Modal */
 .modal-container {
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(255, 255, 255, 0.6);
   display: none;
   position: fixed;
   top: 0;
@@ -104,8 +104,8 @@ a:active {
 }
 
 .modal {
-  background: #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  background: black;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
   max-width: 95%;
   width: 500px;
   animation: modalopen 1s;
@@ -133,7 +133,7 @@ a:active {
 
 .modal-header {
   background: var(--primary-color);
-  color: #fff;
+  color: black;
   padding: 15px;
 }
 
@@ -161,14 +161,14 @@ h3 {
 }
 
 .form-label {
-  color: var(--primary-color);
+  color: black;
   display: block;
 }
 
 button {
   cursor: pointer;
   color: white;
-  background: var(--primary-color);
+  background: black;
   border: none;
   height: 30px;
   width: 100px;
