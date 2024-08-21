@@ -78,12 +78,23 @@ function fetchBookmarks() {
 		bookmarks = JSON.parse(localStorage.getItem('bookmarks'));
 	} else {
 		// Create bookmarks object in localStorage
-		const id = `http://jacinto.design`
-		bookmarks[id] = {
-			name: 'Jacinto Design',
-			url: 'http://jacinto.design',
-		}
-
+		const youtubeId = `https://youtube.com`;
+		bookmarks[youtubeId] = {
+			name: 'Youtube',
+			url: 'https://youtube.com',
+		};
+		
+		const googleId = `https://google.com`;
+		bookmarks[googleId] = {
+			name: 'Google',
+			url: 'https://google.com',
+		};
+		
+		const xId = `https://x.com`;
+		bookmarks[xId] = {
+			name: 'X',
+			url: 'https://x.com',
+		};
 		localStorage.setItem('bookmarks', JSON.stringify(bookmarks));
 	}
 	buildBookmarks();
